@@ -1,16 +1,18 @@
 {
-  "name": "starter-template",
+  "name": "nodejs",
   "version": "1.0.0",
-  "description": "",
+  "description": "Appwrite",
   "main": "src/main.js",
-  "type": "module",
+  "author": "eooce",
+  "license": "MIT",
+  "private": false,
   "scripts": {
-    "format": "prettier --write ."
+    "start": "node src/main.js"
   },
   "dependencies": {
-    "node-appwrite": "^14.1.0"
+    "axios": "latest"
   },
-  "devDependencies": {
-    "prettier": "^3.2.5"
+  "engines": {
+    "node": ">=18"
   }
 }
